@@ -1,3 +1,4 @@
+import { DropdownMenu, DropdownMenuTrigger } from "@radix-ui/react-dropdown-menu";
 import { CircleUserRound } from "lucide-react";
 
 const UsernameMenu = () => {
