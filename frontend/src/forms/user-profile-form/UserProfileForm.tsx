@@ -59,7 +59,7 @@ const userProfileForm = ({ currentUser, onSave, isLoading }: Props) => {
           render={({ field }) => (
             <FormItem className="flex flex-col">
               <FormLabel>Email</FormLabel>
-              <FormControl className="p-2">
+              <FormControl className="p-2 cursor-not-allowed">
                 <input {...field} disabled className="bg-white" />
               </FormControl>
             </FormItem>
